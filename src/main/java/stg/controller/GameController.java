@@ -10,6 +10,7 @@ import stg.model.board.Board;
 @CrossOrigin
 public class GameController {
 
+
     @RequestMapping(value = "/clearMoves", method = RequestMethod.POST, consumes = {"application/json"}, produces = {"application/json"})
     public Board clearMoves(@RequestBody Board board){
 
