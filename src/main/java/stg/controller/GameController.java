@@ -8,6 +8,7 @@ import stg.model.board.Board;
  */
 @RestController
 @CrossOrigin
+@RequestMapping("https://warm-spire-37520.herokuapp.com/")
 public class GameController {
 
 
